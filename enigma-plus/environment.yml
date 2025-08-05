@@ -1,0 +1,12 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.  
+
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
+
+#
+name: swe-agent
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - -r requirements.txt

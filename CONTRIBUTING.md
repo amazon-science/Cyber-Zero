@@ -1,59 +1,126 @@
-# Contributing Guidelines
+# Contributing to Cyber-Zero
 
-Thank you for your interest in contributing to our project. Whether it's a bug report, new feature, correction, or additional
-documentation, we greatly value feedback and contributions from our community.
+Thank you for your interest in contributing to Cyber-Zero! This document provides guidelines and information for contributors.
 
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
-information to effectively respond to your bug report or contribution.
+## Table of Contents
 
+- [Getting Started](#getting-started)
+- [Development Setup](#development-setup)
+- [Code Style](#code-style)
+- [Testing](#testing)
+- [Submitting Changes](#submitting-changes)
+- [Reporting Issues](#reporting-issues)
+- [Code of Conduct](#code-of-conduct)
 
-## Reporting Bugs/Feature Requests
+## Getting Started
 
-We welcome you to use the GitHub issue tracker to report bugs or suggest features.
+1. Fork the repository
+2. Clone your fork locally
+3. Create a new branch for your feature or fix
+4. Make your changes
+5. Test your changes
+6. Submit a pull request
 
-When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
-reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
+## Development Setup
 
-* A reproducible test case or series of steps
-* The version of our code being used
-* Any modifications you've made relevant to the bug
-* Anything unusual about your environment or deployment
+### Prerequisites
 
+- Python 3.8+
+- pip
+- git
 
-## Contributing via Pull Requests
-Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
+### Installation
 
-1. You are working against the latest source on the *main* branch.
-2. You check existing open, and recently merged, pull requests to make sure someone else hasn't addressed the problem already.
-3. You open an issue to discuss any significant work - we would hate for your time to be wasted.
+```bash
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/cyber-zero.git
+cd cyber-zero
 
-To send us a pull request, please:
+# Install dependencies
+pip install -r requirements.txt
 
-1. Fork the repository.
-2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
-3. Ensure local tests pass.
-4. Commit to your fork using clear commit messages.
-5. Send us a pull request, answering any default questions in the pull request interface.
-6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
+# Install the package in development mode
+pip install -e .
+```
 
-GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
-[creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+## Code Style
 
+We follow PEP 8 style guidelines for Python code. Please ensure your code:
 
-## Finding contributions to work on
-Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any 'help wanted' issues is a great place to start.
+- Uses 4 spaces for indentation
+- Has a maximum line length of 88 characters
+- Includes proper docstrings for functions and classes
+- Uses type hints where appropriate
 
+### Pre-commit Hooks
+
+We recommend using pre-commit hooks to ensure code quality:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+## Testing
+
+Before submitting changes, please ensure:
+
+1. All existing tests pass
+2. New tests are added for new functionality
+3. Code coverage is maintained or improved
+
+Run tests with:
+
+```bash
+python -m pytest tests/
+```
+
+## Submitting Changes
+
+1. **Create a feature branch**: `git checkout -b feature/your-feature-name`
+2. **Make your changes**: Write your code and tests
+3. **Commit your changes**: Use clear, descriptive commit messages
+4. **Push to your fork**: `git push origin feature/your-feature-name`
+5. **Create a pull request**: Provide a clear description of your changes
+
+### Commit Message Format
+
+Use conventional commit format:
+
+```
+type(scope): description
+
+[optional body]
+
+[optional footer]
+```
+
+Examples:
+- `feat(trajectory): add support for new CTF challenge types`
+- `fix(evaluation): resolve quality scoring bug`
+- `docs(readme): update installation instructions`
+
+## Reporting Issues
+
+When reporting issues, please include:
+
+1. **Description**: Clear description of the problem
+2. **Steps to reproduce**: Detailed steps to reproduce the issue
+3. **Expected behavior**: What you expected to happen
+4. **Actual behavior**: What actually happened
+5. **Environment**: OS, Python version, package versions
+6. **Additional context**: Any other relevant information
 
 ## Code of Conduct
-This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
-For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
-opensource-codeofconduct@amazon.com with any additional questions or comments.
 
+This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-## Security issue notifications
-If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
+## Questions?
 
+If you have questions about contributing, please:
 
-## Licensing
+1. Check the [documentation](README.md)
+2. Search existing [issues](https://github.com/amazon-science/cyber-zero/issues)
+3. Create a new issue if your question isn't answered
 
-See the [LICENSE](LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
+Thank you for contributing to Cyber-Zero! 
