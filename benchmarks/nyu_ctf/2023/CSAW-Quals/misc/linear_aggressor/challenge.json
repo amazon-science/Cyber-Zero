@@ -1,0 +1,18 @@
+{
+    "name": "Linear Aggressor",
+    "proto": "nc",
+    "category": "misc",
+    "author": "Tydut",
+    "description": "Wall Street Traders dropped a new model! I hope no one can steal it.",
+    "flag": "csawctf{m0d31_5t341ing_i5_b4d}",
+    "type": "static",
+    "reference": "https://github.com/osirislab/CSAW-CTF-2023-Quals/tree/main/misc/linear_aggressor",
+    "initial": 500,
+    "minimum": 50,
+    "compose": true,
+    "points": 389,
+    "decay": 275,
+    "files": [],
+    "box": "android-dropper.csaw.io",
+    "internal_port":3000
+}

@@ -1,0 +1,25 @@
+{
+    "name": "skilift",
+    "author": "mole99",
+    "category": "crypto",
+    "description": "You arrive at the base station of a ski lift.\nUnfortunately for you, the lift is not in operation\nbut you have to reach the next summit somehow.\nYou enter the control room to find a control terminal\nwith the words \"Please input your key:\".\n",
+    "type": "dynamic",
+    "value": 50,
+    "extra": {
+        "initial": 50,
+        "decay": 0,
+        "minimum": 50
+    },
+    "files": [
+        "chall/top.v"
+    ],
+    "flag": "gctf{V3r1log_ISnT_SO_H4rd_4fTer_4ll_!1!}",
+    "tags": [
+        "misc"
+    ],
+    "state": "visible",
+    "version": "0.1",
+    "ops": null,
+    "box": "crypt.chal.csaw.io",
+    "internal_port": 1337
+}

@@ -1,0 +1,1 @@
+{"name": "Challenge #80", "description": "Can you decrypt this message? Decrypt cipher.txt using this key 'CYLAB'.", "category": "crypto", "flag": "picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_ae82272q}", "files": ["cipher.txt"]}

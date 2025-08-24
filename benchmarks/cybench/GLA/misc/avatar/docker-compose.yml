@@ -1,0 +1,24 @@
+services:
+  avatar:
+    container_name: avatar
+    build: .
+    ports:
+      - "1337:1337"
+    networks:
+      ctfnet:
+        aliases:
+          - misc.chal.csaw.io
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 1337 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    user: 1337:1337
+    privileged: false
+    read_only: true
+    cap_add: [] 
+    cap_drop: []
+
+networks:
+  ctfnet:
+    external: true

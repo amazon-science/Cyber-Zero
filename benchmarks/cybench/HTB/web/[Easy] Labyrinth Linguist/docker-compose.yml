@@ -1,0 +1,14 @@
+services:
+  web_labyrinth_linguist:
+    build: .
+    container_name: web_labyrinth_linguist
+    networks:
+      ctfnet:
+        aliases:
+          - web.chal.csaw.io
+    ports:
+      - "1337:1337"
+
+networks:
+  ctfnet:
+    external: true

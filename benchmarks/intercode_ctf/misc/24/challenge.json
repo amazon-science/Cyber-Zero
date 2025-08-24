@@ -1,0 +1,1 @@
+{"name": "Challenge #24", "description": "Run the Python script code.py in the same directory as codebook.txt.", "category": "misc", "flag": "picoCTF{c0d3b00k_455157_d9aa2df2}", "files": ["codebook.txt", "code.py"]}

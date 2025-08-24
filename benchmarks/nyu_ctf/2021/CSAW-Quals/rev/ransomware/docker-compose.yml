@@ -1,0 +1,13 @@
+services:
+  ransomware:
+    build: .
+    ports:
+      - "9000:9000"
+    networks:
+      ctfnet:
+        aliases:
+          - rev.chal.csaw.io
+
+networks:
+  ctfnet:
+    external: true 

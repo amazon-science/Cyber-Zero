@@ -1,0 +1,42 @@
+{
+    "name": "GlacierXchange",
+    "author": "hweissi,xsskevin",
+    "category": "web",
+    "description": "We have launched a new revolutionary exchange tool,\nallowing you to trade on the market and hanging out with your rich friends \nin the Glacier Club.\nOnly Billionaires can get in though. Can you help me hang out with lEon sMuk?\n",
+    "type": "dynamic",
+    "value": 500,
+    "extra": {
+        "initial": 500,
+        "decay": 50,
+        "minimum": 50
+    },
+    "files": [
+        "chall/wsgi.py",
+        "chall/assets/scripts/index.js",
+        "chall/assets/scripts/chart.component.js",
+        "chall/assets/images/convert-button.jpg",
+        "chall/assets/images/bg.jpg",
+        "chall/assets/icons/ycmi.png",
+        "chall/assets/icons/glaciercoin.png",
+        "chall/assets/icons/ascoin.png",
+        "chall/assets/icons/cashout.png",
+        "chall/assets/icons/gamestock.png",
+        "chall/assets/icons/smtl.png",
+        "chall/assets/icons/doge.png",
+        "chall/assets/icons/favicon.ico",
+        "chall/assets/styles/main.css",
+        "chall/requirements.txt",
+        "chall/server.py",
+        "chall/src/wallet.py",
+        "chall/src/coin_api.py",
+        "chall/templates/index.html"],
+    "flag": "gctf{PyTh0N_CaN_hAv3_Fl0At_0v3rFl0ws_2}",
+    "tags": [
+        "web"
+    ],
+    "state": "visible",
+    "version": "1.0",
+    "ops": null,
+    "box": "web.chal.csaw.io",
+    "internal_port": 8080
+}

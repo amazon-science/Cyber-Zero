@@ -1,0 +1,1 @@
+{"name": "Challenge #11", "description": "Can you look at the data in this binary: static? The given BASH script might help!", "category": "misc", "flag": "picoCTF{d15a5m_t34s3r_6f8c8200}", "files": ["ltdis.sh", "static"]}

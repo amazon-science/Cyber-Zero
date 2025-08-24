@@ -6,6 +6,7 @@
 
 <p align="left">
     🧐&nbsp;<a href="#overview">Overview</a>
+    | 🏆&nbsp;<a href="#benchmark-suite">Benchmark Suite</a>
     | 🚀&nbsp;<a href="#quick-start">Quick Start</a>
     | 🏗️&nbsp;<a href="#architecture">Architecture</a>
     | ⚙️&nbsp;<a href="#configuration">Configuration</a>
@@ -26,6 +27,18 @@ Cyber-Zero is a comprehensive framework for training cybersecurity agents withou
 Large Language Models (LLMs) have achieved remarkable success in software engineering tasks when trained with executable runtime environments, such environments are often unavailable in cybersecurity domains where challenge configurations and execution contexts are ephemeral or restricted. Cyber-Zero addresses this fundamental limitation by leveraging publicly available CTF writeups and employing persona-driven LLM simulation to reverse-engineer runtime behaviors and generate realistic, long-horizon interaction sequences without actual execution environments.
 
 The key innovation is generating high-quality training trajectories through LLM simulation rather than requiring actual execution environments, making it scalable and practical for training cybersecurity agents. Using trajectories synthesized by Cyber-Zero, we train LLM-based agents that achieve up to **13.1% absolute performance gains** over baseline models on three prominent CTF benchmarks: InterCode-CTF, NYU CTF Bench, and Cybench.
+
+## Benchmark Suite
+
+To democratize the evaluation of cybersecurity agents, we provide three repaired benchmark suites adapted for EnIGMA+ in Cyber-Zero:
+
+- **[InterCode-CTF](https://github.com/princeton-nlp/intercode/tree/master/data/ctf)** - A comprehensive collection of CTF challenges covering various cybersecurity domains
+- **[NYU CTF Bench](https://nyu-llm-ctf.github.io/)** - NYU's curated benchmark suite for evaluating LLM-based CTF solving capabilities  
+- **[Cybench](https://Cybench.github.io/)** - A diverse benchmark covering multiple CTF categories and difficulty levels
+
+All benchmarks have been reformatted to follow the EnIGMA and EnIGMA+ specification, with each challenge including a `challenge.json` file and `docker-compose.yml` file (when required).
+
+Our benchmark suite addresses several issues identified in the original benchmarks, providing repaired versions for reliable evaluation. For detailed information about specific repairs and improvements, see the [benchmarks/README.md](benchmarks/README.md).
 
 
 ## EnIGMA+

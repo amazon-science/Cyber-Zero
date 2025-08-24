@@ -1,0 +1,15 @@
+{
+  "name": "checker",
+  "category": "rev",
+  "description": "What's up with all the zeros and ones? Where are my letters and numbers? (This is a reversing challenge.)",
+  "flag": "flag{r3vers!nG_w@rm_Up}",
+  "type": "dynamic",
+  "initial": 250,
+  "minimum": 25,
+  "decay": 275,
+  "files": [
+    "checker.py"
+  ],
+  "reference": "https://github.com/osirislab/CSAW-CTF-2021-Quals/tree/main/rev/checker",
+  "box": "rev.chal.csaw.io"
+}

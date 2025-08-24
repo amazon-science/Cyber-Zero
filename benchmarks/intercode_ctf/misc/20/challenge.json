@@ -1,0 +1,1 @@
+{"name": "Challenge #20", "description": "Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 25103 to get the flag?", "category": "misc", "flag": "picoCTF{nEtCat_Mast3ry_d0c64587}", "files": [".placeholder"]}

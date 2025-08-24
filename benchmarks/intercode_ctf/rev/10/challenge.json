@@ -1,0 +1,1 @@
+{"name": "Challenge #10", "description": "I wonder what this really is...\n''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])", "category": "rev", "flag": "picoCTF{16_bits_inst34d_of_8_d52c6b93}", "files": ["enc"]}

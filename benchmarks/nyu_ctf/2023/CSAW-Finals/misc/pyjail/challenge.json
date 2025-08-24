@@ -1,0 +1,18 @@
+{
+    "name": "Python Garbageman",
+    "category": "misc",
+    "proto": "nc",
+    "author": "nikobelic29",
+    "description": "obligatory PyJail, except this might be harder",
+    "flag": "csawctf{1_h0p3_y0u_h4d_fun_173r471n6_6c}",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "points": 74,
+    "compose": true,
+    "decay": 275,
+    "internal_port":13336,
+    "reference": "https://github.com/osirislab/CSAW-CTF-2023-Finals/tree/main/misc/pyjail",
+    "box": "misc.chal.csaw.io",
+    "files":["./chall.py", "Dockerfile"]
+}

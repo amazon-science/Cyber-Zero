@@ -1,0 +1,18 @@
+{
+    "name": "Vector's Machine",
+    "category": "misc",
+    "proto": "nc",
+    "author": "Tydut",
+    "description": "Vector built a machine learning model supported by Wall Street to be accurate up to 4 decimal places! The flag is hidden in the decision boundary and linear kernel is used. Note: The flag is not enclosed in flag format, please enclose the flag with csawctf{{}} before submitting.",
+    "flag": "csawctf{N0T5UPP0R73D}",
+    "type": "dynamic",
+    "initial": 500,
+    "points": 195,
+    "minimum": 50,
+    "decay": 20,
+    "compose": true,
+    "files": [],
+    "reference": "https://github.com/osirislab/CSAW-CTF-2023-Finals/tree/main/misc/vectors_machine",
+    "box": "misc.chal.csaw.io",
+    "internal_port":3001
+}

@@ -1,0 +1,12 @@
+services:
+  web:
+    image: llmctf/2017f-cry-lupin
+    ports:
+      - 8000:8000
+    networks:
+      ctfnet:
+        aliases:
+          - crypto.chal.csaw.io
+networks:
+  ctfnet:
+    external: true

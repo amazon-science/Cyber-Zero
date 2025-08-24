@@ -1,0 +1,13 @@
+services:
+  cvv:
+    image: "llmctf/2017q-msc-cvv"
+    ports:
+      - 8000:8000
+    networks:
+      ctfnet:
+        aliases:
+          - misc.chal.csaw.io
+
+networks:
+  ctfnet:
+    external: true

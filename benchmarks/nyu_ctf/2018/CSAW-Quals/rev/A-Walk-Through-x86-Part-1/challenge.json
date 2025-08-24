@@ -1,0 +1,16 @@
+{
+  "name": "A-Walk-Through-x86-Part-1",
+  "category": "rev",
+  "description": "",
+  "flag": "flag{rev_up_y0ur_3ng1nes_reeeeeeeeeeeeecruit5!}",
+  "points": 50,
+  "files": [
+    "stage-1.asm",
+    "stage-2.bin",
+    "Makefile"
+  ],
+  "box": "rev.chal.csaw.io",
+  "internal_port": 8000,
+  "reference": "https://github.com/osirislab/CSAW-CTF-2018-Quals/tree/master/rev/A-Walk-Through-x86-Part-1",
+  "compose": true
+}

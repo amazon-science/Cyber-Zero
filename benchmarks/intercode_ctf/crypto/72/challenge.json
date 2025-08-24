@@ -1,0 +1,1 @@
+{"name": "Challenge #72", "description": "We found a brand new type of encryption, can you break the secret code? (Wrap with picoCTF{}) dcebcmebecamcmanaedbacdaanafagapdaaoabaaafdbapdpaaapadanandcafaadbdaapdpandcac new_caesar.py", "category": "crypto", "flag": "picoCTF{et_tu?_07d5c0892c1438d2b32600e83dc2b0e5}", "files": ["new_caesar.py"]}

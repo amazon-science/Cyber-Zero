@@ -1,0 +1,1 @@
+{"name": "Challenge #69", "description": "What happens if you have a small exponent? There is a twist though, we padded the plaintext so that (M ** e) is just barely larger than N. Let's decrypt this ciphertext", "category": "crypto", "flag": "picoCTF{e_sh0u1d_b3_lArg3r_0b39bbb1}", "files": ["ciphertext"]}

@@ -1,0 +1,18 @@
+{
+    "name": "Sigma's Logistics",
+    "category": "misc",
+    "proto": "nc",
+    "author": "Tydut",
+    "description": "Wall Street Traders couldn't write a good model! Sigma wrote a new one and says no one can steal it now.",
+    "flag": "csawctf{1_th0ugh7_1_w45_s1gm4}",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "compose": true,
+    "decay": 20,
+    "points": 57,
+    "files": [],
+    "reference": "https://github.com/osirislab/CSAW-CTF-2023-Finals/tree/main/misc/sigmaslogistics",
+    "box": "mandf.csaw.io",
+    "internal_port":3000
+}

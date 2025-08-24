@@ -1,0 +1,16 @@
+{
+    "name": "Salt Server",
+    "category": "pwn",
+    "author": "thing2",
+    "description": "This is for the salt of all the tears.  Flag is located at `/home/csaw/flag.txt`.",
+    "flag": "flag{NaCl_Is_4_S3cret_b0x}",
+    "box": "pwn.chal.csaw.io",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "decay": 20,
+    "reference": "https://github.com/osirislab/CSAW-CTF-2022-Finals/tree/master/pwn/Salt%20Server",
+    "files": ["src/saltserver"],
+    "internal_port": 8787,
+    "compose": true
+}

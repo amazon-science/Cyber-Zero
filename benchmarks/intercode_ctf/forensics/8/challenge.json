@@ -1,0 +1,1 @@
+{"name": "Challenge #8", "description": "Files can always be changed in a secret way. Can you find the flag?", "category": "forensics", "flag": "picoCTF{the_m3tadata_1s_modified}", "files": ["cat.jpg", "exiftool_download_url.txt"]}

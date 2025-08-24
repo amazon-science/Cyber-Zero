@@ -1,0 +1,1 @@
+{"name": "Challenge #48", "description": "This vault door uses a different change of base as well as URL encoding!", "category": "rev", "flag": "picoCTF{c0nv3rt1ng_fr0m_ba5e_64_e3152bf4}", "files": ["VaultDoor5.java"]}

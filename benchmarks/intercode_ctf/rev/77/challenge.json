@@ -1,0 +1,1 @@
+{"name": "Challenge #77", "description": "For what argument does this program print `win` with variables 87, 3 and 3? File: chall_1.S Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})", "category": "rev", "flag": "picoCTF{000000e8}", "files": ["chall_1.S"]}

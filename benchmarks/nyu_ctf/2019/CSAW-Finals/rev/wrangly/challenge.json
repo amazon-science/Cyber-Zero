@@ -1,0 +1,12 @@
+{
+    "name": "wrangly",
+    "category": "rev",
+    "description": "Got lazy, here's the flag, but it's just a little wrangled up. \n\n`nc {box} {port}`",
+    "flag": "flag{u_unwr4ngl3d_m3}",
+    "internal_port": 8000,
+    "box": "rev.chal.csaw.io",
+    "points": 50,
+    "compose": true,
+    "files": ["unwrangle_me"],
+    "reference": "https://github.com/osirislab/CSAW-CTF-2019-Finals/tree/master/rev/wrangly"
+}

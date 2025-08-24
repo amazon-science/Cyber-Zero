@@ -1,0 +1,1 @@
+{"name": "Challenge #26", "description": "Fix the syntax error in this Python script to print the flag.", "category": "misc", "flag": "picoCTF{1nd3nt1ty_cr1515_09ee727a}", "files": ["fixme1.py"]}

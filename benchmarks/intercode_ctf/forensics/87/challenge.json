@@ -1,0 +1,1 @@
+{"name": "Challenge #87", "description": "Let's start off simple, can you overflow the correct buffer? You can view source in vuln.c. And connect with it using: nc saturn.picoctf.net 65443 to get the flag", "category": "forensics", "flag": "picoCTF{ov3rfl0ws_ar3nt_that_bad_c5ca6248}", "files": ["vuln.c"]}

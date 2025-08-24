@@ -1,0 +1,1 @@
+{"name": "Challenge #12", "description": "In RSA, a small e value can be problematic, but what about N? Can you decrypt this?", "category": "crypto", "flag": "picoCTF{sma11_N_n0_g0od_00264570}", "files": ["values"]}

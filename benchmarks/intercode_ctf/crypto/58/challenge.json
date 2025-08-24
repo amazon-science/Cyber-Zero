@@ -1,0 +1,1 @@
+{"name": "Challenge #58", "description": "How about we take you on an adventure on exploring certificate signing requests. Take a look at this CSR file", "category": "crypto", "flag": "picoCTF{read_mycert_57f58832}", "files": ["readmycert.csr"]}

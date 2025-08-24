@@ -1,0 +1,17 @@
+{
+    "name": "eMbrEy0 LEaK",
+    "category": "misc",
+    "proto": "nc",
+    "author": "crazyman @ r3kapig",
+    "description": "D1d u like python,Their are some easy trick.Have fun!!!!",
+    "flag": "flag{y0U_f1NiSHeD_EmpR3Yo_lAeK_Ch@L1EnGe_aNd_uSE_hE1p_T0_Le@k_ThE_vAr}",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "decay": 20,
+    "reference": "https://github.com/osirislab/CSAW-CTF-2022-Finals/tree/master/misc/eMbrEy0%20LEaK",
+    "files": ["attachment/service.py"],
+    "internal_port":9999,
+    "box": "misc.chal.csaw.io",
+    "compose": true
+}

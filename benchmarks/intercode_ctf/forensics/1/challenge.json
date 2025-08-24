@@ -1,0 +1,1 @@
+{"name": "Challenge #1", "description": "You should utilize the 'dds2-alpine.flag.img.gz' image. All we know is the file with the flag is named `down-at-the-bottom.txt`. The 'sleuthkit' tools can be used for help.", "category": "forensics", "flag": "picoCTF{f0r3ns1c4t0r_n0v1c3_f5565e7b}", "files": ["dds2-alpine.flag.img.gz"]}

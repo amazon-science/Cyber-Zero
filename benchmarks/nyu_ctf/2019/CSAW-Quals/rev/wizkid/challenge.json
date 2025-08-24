@@ -1,0 +1,12 @@
+{
+    "name": "wizkid",
+    "category": "rev",
+    "description": "No rust or go binaries this time ;)\n\n`nc {box} {port}`",
+    "flag": "flag{y0u_4r3_d3f1nat3lY_a_M4tH_w1zKiD}",
+    "points": 350,
+    "internal_port": 4444,
+    "box": "rev.chal.csaw.io",
+    "compose": true,
+    "files": ["wizkid"],
+    "reference": "https://github.com/osirislab/CSAW-CTF-2019-Quals/tree/master/rev/wizkid"
+}

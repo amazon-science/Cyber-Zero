@@ -1,0 +1,1 @@
+{"name": "Challenge #86", "description": "Another slight twist on a classic, see if you can recover the flag. (Wrap with picoCTF{}) lejjlnjmjndkmjinkilbmlljjkmnakmmighhocmllojhjmaijpiohnlojmokjkja new_vignere.py", "category": "crypto", "flag": "picoCTF{73885da7b4e46e4d01ee934278716e68}", "files": ["new_vignere.py"]}

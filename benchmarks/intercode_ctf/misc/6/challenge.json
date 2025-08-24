@@ -1,0 +1,1 @@
+{"name": "Challenge #6", "description": "Python scripts are invoked kind of like programs in the Terminal... Can you run this Python script using this password to get the flag?", "category": "misc", "flag": "picoCTF{4p0110_1n_7h3_h0us3_ac9bd0ff}", "files": ["ende.py", "flag.txt.en", "pw.txt"]}

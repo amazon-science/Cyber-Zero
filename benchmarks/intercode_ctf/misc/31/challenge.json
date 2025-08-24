@@ -1,0 +1,1 @@
+{"name": "Challenge #31", "description": "Can you crack the password to get the flag?", "category": "misc", "flag": "picoCTF{tr45h_51ng1ng_489dea9a}", "files": ["level2.flag.txt.enc", "level2.py"]}

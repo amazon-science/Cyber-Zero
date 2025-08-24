@@ -1,0 +1,1 @@
+{"name": "Challenge #64", "description": "Take the packet capture file and use packet analysis software to find the flag.", "category": "forensics", "flag": "picoCTF{p4ck37_5h4rk_ceccaa7f}", "files": ["network-dump.flag.pcap"]}

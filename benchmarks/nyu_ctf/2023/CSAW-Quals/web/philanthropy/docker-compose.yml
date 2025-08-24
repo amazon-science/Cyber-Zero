@@ -1,0 +1,82 @@
+services:
+
+  phil-front:
+    container_name: phil-front
+    image: 'llmctf/2023q-web-philanthropy-phil-front'
+    build:
+      context: ./philanthropy-front
+      dockerfile: Dockerfile
+    environment:
+      - IDENTITY_HOST=phil-id
+      - GENERATE_SOURCEMAP=false
+    depends_on:
+      - phil-id
+    networks:
+      - philnet
+
+  phil-id:
+    container_name: phil-id
+    image: 'llmctf/2023q-web-philanthropy-phil-id'
+    build:
+      context: ./philanthropy-id
+      dockerfile: Dockerfile
+    environment:
+      - DB_HOST=phil-db
+      - DB_NAME=philanthropy
+      - DB_USERNAME=phil
+      - DB_PASSWORD=MCH0#hH2miVNf!ag0ZF3s9m
+      - DB_PORT=5433
+      - SERVER_PORT=13336
+      - JWT_SECRET_KEY=!%Z6%MacSsPa@mTfpTMgUcdf
+    depends_on:
+      phil-db:
+        condition: service_healthy
+    networks:
+      - philnet
+
+  phil-db:
+    container_name: phil-db 
+    image: 'postgres:latest@sha256:07572430dbcd821f9f978899c3ab3a727f5029be9298a41662e1b5404d5b73e0'
+    environment:
+      POSTGRES_USER: phil
+      POSTGRES_PASSWORD: MCH0#hH2miVNf!ag0ZF3s9m
+      POSTGRES_DB: philanthropy
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U phil -d philanthropy"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - philnet
+
+  phil-nginx:
+    container_name: phil-nginx
+    image: 'llmctf/2023q-web-philanthropy-phil-nginx'
+    build:
+      context: ./philanthropy-nginx
+      dockerfile: Dockerfile
+    environment:
+      - IDENTITY_HOST=phil-id
+      - IDENTITY_PORT=13336
+      - WEB_HOST=phil-web
+      - WEB_PORT=13337
+      - FRONT_HOST=phil-front
+      - FRONT_PORT=4173
+    ports:
+      - 14180:14180
+    depends_on:
+      - phil-id
+      - phil-front
+    networks:
+      philnet:
+      ctfnet:
+        aliases:
+          - philanthropy
+          - web.chal.csaw.io
+
+networks:
+  philnet:
+    name: philnet
+    driver: bridge
+  ctfnet:
+    external: true

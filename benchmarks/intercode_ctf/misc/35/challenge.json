@@ -1,0 +1,1 @@
+{"name": "Challenge #35", "description": "Download the script (https://artifacts.picoctf.net/c/34/runme.py) with the wget command and run it with python3 to get the flag.", "category": "misc", "flag": "picoCTF{run_s4n1ty_run}", "files": [".placeholder"]}

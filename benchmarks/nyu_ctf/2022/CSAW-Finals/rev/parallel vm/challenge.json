@@ -1,0 +1,14 @@
+{
+    "name": "parallel vm",
+    "category": "rev",
+    "author": "Ysiel @ r3kapig",
+    "description": "Welcome to the parallel vm,Please submit correct input and follow the format below:flag{input}",
+    "flag": "flag{sl!c3Ye5}",
+    "box": "rev.chal.csaw.io",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "decay": 20,
+    "reference": "https://github.com/osirislab/CSAW-CTF-2022-Finals/tree/master/rev/parallel%20vm",
+    "files": ["attachment/vm"]
+  }

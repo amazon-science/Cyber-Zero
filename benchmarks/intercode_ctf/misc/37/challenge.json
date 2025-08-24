@@ -1,0 +1,1 @@
+{"name": "Challenge #37", "description": "Unzip this archive and find the file named 'uber-secret.txt'", "category": "misc", "flag": "picoCTF{f1nd_15_f457_ab443fd1}", "files": ["files.zip"]}

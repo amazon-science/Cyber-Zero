@@ -1,0 +1,1 @@
+{"name": "Challenge #95", "description": "Your goal is to find the flag. compress_and_attack.py nc mercury.picoctf.net 2431", "category": "crypto", "flag": "picoCTF{sheriff_you_solved_the_crime}", "files": ["compress_and_attack.py"]}

@@ -1,0 +1,16 @@
+{
+    "name": "open-ELLIPTI-PH!",
+    "category": "crypto",
+    "author": "rollingcoconut",
+    "description": "Crack the curve to get a key! Note: please wrap the flag you get in flag{{...}} before submitting.",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "decay": 20,
+    "files": ["src/chall.sage", "src/mv_ecc.sage"],
+    "flag": "flag{KeY_sIZe_Matt3Rs!}",
+     "reference": "https://github.com/osirislab/CSAW-CTF-2022-Finals/tree/master/crypto/open-ELLIPTI-PH!",
+     "box": "crypto.chal.csaw.io",
+     "internal_port": 6000,
+     "compose": true
+  }

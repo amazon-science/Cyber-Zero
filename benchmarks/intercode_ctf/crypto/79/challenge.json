@@ -1,0 +1,1 @@
+{"name": "Challenge #79", "description": "To get the flag, you must break RSA not once, but three times! Given public-key.txt and encrypt.txt.", "category": "crypto", "flag": "picoCTF{1_gu3ss_tr1pl3_rs4_1snt_tr1pl3_s3cur3!!!!!!}", "files": ["encrypt.py", "public-key.txt"]}

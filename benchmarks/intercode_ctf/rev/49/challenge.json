@@ -1,0 +1,1 @@
+{"name": "Challenge #49", "description": "This vault uses an XOR encryption scheme.", "category": "rev", "flag": "picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_948b888}", "files": ["VaultDoor6.java"]}

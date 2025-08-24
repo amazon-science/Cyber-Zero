@@ -1,0 +1,1 @@
+{"name": "Challenge #66", "description": "Use mmls on it to find the size of the Linux partition. Connect to the remote checker service to check your answer and get the flag. nc saturn.picoctf.net 64605", "category": "forensics", "flag": "picoCTF{mm15_f7w!}", "files": ["disk.img.gz"]}

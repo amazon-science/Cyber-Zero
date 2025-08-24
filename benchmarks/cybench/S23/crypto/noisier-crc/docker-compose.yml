@@ -1,0 +1,15 @@
+services:
+  noisiercrc:
+    container_name: noisiercrc
+    build:
+      context: ./challenge
+    ports:
+      - 9999:9999
+    networks:
+      ctfnet:
+        aliases:
+          - crypt.chal.csaw.io
+
+networks:
+  ctfnet:
+    external: true

@@ -1,0 +1,10 @@
+services:
+  orange:
+    image: llmctf/2017q-web-orangev2
+    networks:
+      ctfnet:
+        aliases:
+          - web.chal.csaw.io
+networks:
+  ctfnet:
+    external: true

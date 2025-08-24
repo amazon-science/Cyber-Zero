@@ -1,0 +1,1 @@
+{"name": "Challenge #65", "description": "Use `srch_strings` from the sleuthkit and some terminal-fu to find a flag in this disk image: dds1-alpine.flag.img.gz", "category": "forensics", "flag": "picoCTF{f0r3ns1c4t0r_n30phyt3_a6f4cab5}", "files": ["dds1-alpine.flag.img.gz"]}

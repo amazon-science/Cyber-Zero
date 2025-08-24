@@ -1,0 +1,1 @@
+{"name": "Challenge #73", "description": "A one-time pad is unbreakable, but can you manage to recover the flag? (Wrap with picoCTF{}) nc mercury.picoctf.net 36981 otp.py", "category": "crypto", "flag": "picoCTF{7f9da29f40499a98db220380a57746a4}", "files": [".placeholder"]}

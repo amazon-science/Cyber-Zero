@@ -1,0 +1,1 @@
+{"name": "Challenge #47", "description": "This vault uses ASCII encoding for the password.", "category": "rev", "flag": "picoCTF{jU5t_4_bUnCh_0f_bYt3s_8f4a6cbf3b}", "files": ["VaultDoor4.java"]}

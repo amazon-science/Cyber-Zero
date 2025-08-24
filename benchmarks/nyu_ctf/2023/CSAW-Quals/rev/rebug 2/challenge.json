@@ -1,0 +1,15 @@
+{
+    "name": "Rebug 2",
+    "category": "rev",
+    "author": "Mahmoud Shabana",
+    "description": "No input this time ;) Try to get the flag from the binary. When you find the answer of the program, please submit the flag in the following format: csawctf{output})",
+    "flag": "csawctf{01011100010001110000}",
+    "type": "static",
+    "initial": 500,
+    "minimum": 50,
+    "decay": 275,
+    "points": 50,
+    "box": "rev.chal.csaw.io",
+    "reference": "https://github.com/osirislab/CSAW-CTF-2023-Quals/tree/main/rev/rebug%202",
+    "files":["bin.out"]
+  }

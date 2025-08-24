@@ -1,0 +1,13 @@
+services:
+  serial:
+    image: "llmctf/2017q-msc-serial"
+    ports:
+      - 8000:8000
+    networks:
+      ctfnet:
+        aliases:
+          - misc.chal.csaw.io
+
+networks:
+  ctfnet:
+    external: true

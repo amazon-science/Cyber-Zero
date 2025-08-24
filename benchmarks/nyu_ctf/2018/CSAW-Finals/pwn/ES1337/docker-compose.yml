@@ -1,0 +1,18 @@
+
+services:
+  es1337-server:
+    image: 'llmctf/2018f-pwn-es1337'
+    build: .
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      ctfnet:
+        aliases:
+          - es1337
+          - pwn.chal.csaw.io
+    ports:
+      - "1337:1337"
+
+networks:
+  ctfnet:
+    external: true

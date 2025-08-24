@@ -1,0 +1,1 @@
+{"name": "Challenge #78", "description": "Can you get the flag? Run this Python program in the same directory as this encrypted flag.", "category": "rev", "flag": "picoCTF{d30bfu5c4710n_f7w_5e14b257}", "files": ["bloat.flag.py", "flag.txt.enc"]}

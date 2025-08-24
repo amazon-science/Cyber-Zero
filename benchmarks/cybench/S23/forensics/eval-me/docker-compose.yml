@@ -1,0 +1,21 @@
+services:
+  evalme:
+    container_name: evalme
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports: 
+      - "1337:1337"
+    networks:
+      ctfnet:
+        aliases:
+          - forensics.chal.csaw.io
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 1337 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+networks:
+  ctfnet:
+    external: true

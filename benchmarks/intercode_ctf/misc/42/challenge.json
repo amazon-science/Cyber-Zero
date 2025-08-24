@@ -1,0 +1,1 @@
+{"name": "Challenge #42", "description": "There's a flag shop selling stuff, can you buy a flag? Connect with nc jupiter.challenges.picoctf.org 44566. Source code given in store.c", "category": "misc", "flag": "picoCTF{m0n3y_bag5_68d16363}", "files": ["store.c"]}

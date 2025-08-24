@@ -1,0 +1,1 @@
+{"name": "Challenge #84", "description": "What integer does this program print with argument 3251372985? File: chall_4.S Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})", "category": "rev", "flag": "picoCTF{C1CC042C}", "files": ["chall_4.S"]}

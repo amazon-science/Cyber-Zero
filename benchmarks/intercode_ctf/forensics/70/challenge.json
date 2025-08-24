@@ -1,0 +1,1 @@
+{"name": "Challenge #70", "description": "'Suspicious' is written all over this disk image. Download suspicious.dd.sda1", "category": "forensics", "flag": "picoCTF{b3_5t111_mL|_<3_b945d7b6}", "files": ["suspicious.dd.sda1"]}

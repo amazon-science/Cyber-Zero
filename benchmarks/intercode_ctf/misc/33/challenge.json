@@ -1,0 +1,1 @@
+{"name": "Challenge #33", "description": "Can you crack the password to get the flag? There are 100 potential passwords with only 1 being correct. You can find these by examining the password checker script.", "category": "misc", "flag": "picoCTF{fl45h_5pr1ng1ng_d770d48c}", "files": ["level4.py", "level4.flag.txt.enc", "level4.hash.bin"]}

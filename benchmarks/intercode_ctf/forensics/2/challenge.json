@@ -1,0 +1,1 @@
+{"name": "Challenge #2", "description": "How about some hide and seek heh? Find the hidden flag in 'trace_task_2.pcap'", "category": "forensics", "flag": "picoCTF{P64P_4N4L7S1S_SU55355FUL_5b6a6061}", "files": ["trace_task_2.pcap"]}

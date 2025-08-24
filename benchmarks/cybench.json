@@ -1,0 +1,282 @@
+{
+  "cb-gla-crypto-missingbits": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "crypto",
+    "challenge": "MissingBits",
+    "path": "cybench/GLA/crypto/MissingBits"
+  },
+  "cb-gla-crypto-slcg": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "crypto",
+    "challenge": "SLCG",
+    "path": "cybench/GLA/crypto/SLCG"
+  },
+  "cb-gla-crypto-walkingtotheseaside": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "crypto",
+    "challenge": "WalkingToTheSeaSide",
+    "path": "cybench/GLA/crypto/WalkingToTheSeaSide"
+  },
+  "cb-gla-crypto-shuffled-aes": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "crypto",
+    "challenge": "Shuffled AES",
+    "path": "cybench/GLA/crypto/shuffled-aes"
+  },
+  "cb-gla-crypto-skilift": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "crypto",
+    "challenge": "skilift",
+    "path": "cybench/GLA/crypto/skilift"
+  },
+  "cb-gla-misc-avatar": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "misc",
+    "challenge": "Avatar",
+    "path": "cybench/GLA/misc/avatar"
+  },
+  "cb-gla-rev-rpgo": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "rev",
+    "challenge": "rpgo",
+    "path": "cybench/GLA/rev/rpgo"
+  },
+  "cb-gla-rev-sop": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "rev",
+    "challenge": "sop",
+    "path": "cybench/GLA/rev/sop"
+  },
+  "cb-gla-web-glacierexchange": {
+    "benchmark": "cybench",
+    "event": "GLA",
+    "category": "web",
+    "challenge": "GlacierXchange",
+    "path": "cybench/GLA/web/GlacierExchange"
+  },
+  "cb-hkc-web-05-motp": {
+    "benchmark": "cybench",
+    "event": "HKC",
+    "category": "web",
+    "challenge": "motp",
+    "path": "cybench/HKC/web/05-motp"
+  },
+  "cb-hkc-web-22-back-to-the-past": {
+    "benchmark": "cybench",
+    "event": "HKC",
+    "category": "web",
+    "challenge": "back to the past",
+    "path": "cybench/HKC/web/22-back-to-the-past"
+  },
+  "cb-htb-crypto-hard_permuted": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "crypto",
+    "challenge": "Permuted",
+    "path": "cybench/HTB/crypto/[Hard] Permuted"
+  },
+  "cb-htb-crypto-medium_partial_tenacity": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "crypto",
+    "challenge": "Partial Tenacity",
+    "path": "cybench/HTB/crypto/[Medium] Partial Tenacity"
+  },
+  "cb-htb-crypto-very_easy_dynastic": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "crypto",
+    "challenge": "Dynastic",
+    "path": "cybench/HTB/crypto/[Very Easy] Dynastic"
+  },
+  "cb-htb-crypto-very_easy_primary_knowledge": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "crypto",
+    "challenge": "Primary knowledge",
+    "path": "cybench/HTB/crypto/[Very Easy] Primary Knowledge"
+  },
+  "cb-htb-forensics-medium_data_siege": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "forensics",
+    "challenge": "Data Siege",
+    "path": "cybench/HTB/forensics/[Medium] Data Siege"
+  },
+  "cb-htb-forensics-very_easy_it_has_begun": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "forensics",
+    "challenge": "It Has Begun",
+    "path": "cybench/HTB/forensics/[Very Easy] It Has Begun"
+  },
+  "cb-htb-forensics-very_easy_urgent": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "forensics",
+    "challenge": "Urgent",
+    "path": "cybench/HTB/forensics/[Very Easy] Urgent"
+  },
+  "cb-htb-misc-easy_unbreakable": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "misc",
+    "challenge": "Unbreakable",
+    "path": "cybench/HTB/misc/[Easy] Unbreakable"
+  },
+  "cb-htb-misc-medium_were_pickle_phreaks_revenge": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "misc",
+    "challenge": "Were Pickle Phreaks Revenge",
+    "path": "cybench/HTB/misc/[Medium] Were Pickle Phreaks Revenge"
+  },
+  "cb-htb-pwn-very_easy_delulu": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "pwn",
+    "challenge": "Delulu",
+    "path": "cybench/HTB/pwn/[Very Easy] Delulu"
+  },
+  "cb-htb-rev-easy_crushing": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "rev",
+    "challenge": "Crushing",
+    "path": "cybench/HTB/rev/[Easy] Crushing"
+  },
+  "cb-htb-rev-hard_flecksofgold": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "rev",
+    "challenge": "FlecksOfGold",
+    "path": "cybench/HTB/rev/[Hard] FlecksOfGold"
+  },
+  "cb-htb-rev-very_easy_lootstash": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "rev",
+    "challenge": "LootStash",
+    "path": "cybench/HTB/rev/[Very Easy] LootStash"
+  },
+  "cb-htb-rev-very_easy_packedaway": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "rev",
+    "challenge": "PackedAway",
+    "path": "cybench/HTB/rev/[Very Easy] PackedAway"
+  },
+  "cb-htb-web-easy_labyrinth_linguist": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "web",
+    "challenge": "Labyrinth Linguist",
+    "path": "cybench/HTB/web/[Easy] Labyrinth Linguist"
+  },
+  "cb-htb-web-medium_locktalk": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "web",
+    "challenge": "LockTalk",
+    "path": "cybench/HTB/web/[Medium] LockTalk"
+  },
+  "cb-htb-web-very_easy_flag_command": {
+    "benchmark": "cybench",
+    "event": "HTB",
+    "category": "web",
+    "challenge": "Flag Command",
+    "path": "cybench/HTB/web/[Very Easy] Flag Command"
+  },
+  "cb-s22-crypto-diffecient": {
+    "benchmark": "cybench",
+    "event": "S22",
+    "category": "crypto",
+    "challenge": "diffecient",
+    "path": "cybench/S22/crypto/diffecient"
+  },
+  "cb-s22-crypto-ezmaze": {
+    "benchmark": "cybench",
+    "event": "S22",
+    "category": "crypto",
+    "challenge": "ezmaze",
+    "path": "cybench/S22/crypto/ezmaze"
+  },
+  "cb-s22-crypto-failproof": {
+    "benchmark": "cybench",
+    "event": "S22",
+    "category": "crypto",
+    "challenge": "failproof",
+    "path": "cybench/S22/crypto/failproof"
+  },
+  "cb-s22-crypto-robust-cbc": {
+    "benchmark": "cybench",
+    "event": "S22",
+    "category": "crypto",
+    "challenge": "robust-cbc",
+    "path": "cybench/S22/crypto/robust-cbc"
+  },
+  "cb-s23-crypto-noisier-crc": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "crypto",
+    "challenge": "noisier crc",
+    "path": "cybench/S23/crypto/noisier-crc"
+  },
+  "cb-s23-crypto-noisy-crc": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "crypto",
+    "challenge": "noisy crc",
+    "path": "cybench/S23/crypto/noisy-crc"
+  },
+  "cb-s23-crypto-randsubware": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "crypto",
+    "challenge": "randsubware",
+    "path": "cybench/S23/crypto/randsubware"
+  },
+  "cb-s23-forensics-eval-me": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "forensics",
+    "challenge": "evalme",
+    "path": "cybench/S23/forensics/eval-me"
+  },
+  "cb-s23-misc-just-another-pickle-jail": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "misc",
+    "challenge": "just another pickle jail",
+    "path": "cybench/S23/misc/just-another-pickle-jail"
+  },
+  "cb-s23-pwn-network-tools": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "pwn",
+    "challenge": "network-tools",
+    "path": "cybench/S23/pwn/network-tools"
+  },
+  "cb-s23-web-chunky": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "web",
+    "challenge": "chunky",
+    "path": "cybench/S23/web/chunky"
+  },
+  "cb-s23-web-frog-waf": {
+    "benchmark": "cybench",
+    "event": "S23",
+    "category": "web",
+    "challenge": "frog-waf",
+    "path": "cybench/S23/web/frog-waf"
+  }
+}

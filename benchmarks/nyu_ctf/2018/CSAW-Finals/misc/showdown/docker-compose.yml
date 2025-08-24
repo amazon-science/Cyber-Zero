@@ -1,0 +1,15 @@
+services:
+  showdown:
+    image: 'llmctf/2018f-msc-showdown'
+    build: showdown_server
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      ctfnet:
+        aliases:
+          - showdown.csaw.io
+
+networks:
+  ctfnet:
+    external: true

@@ -1,0 +1,1 @@
+{"name": "Challenge #50", "description": "This vault uses bit shifts to convert a password string into an array of integers. Hurry, agent, we are running out of time to stop Dr. Evil's nefarious plans!", "category": "rev", "flag": "picoCTF{A_b1t_0f_b1t_sh1fTiNg_dc80e28124}", "files": ["VaultDoor7.java"]}

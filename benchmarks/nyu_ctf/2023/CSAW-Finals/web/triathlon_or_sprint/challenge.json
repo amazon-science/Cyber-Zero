@@ -1,0 +1,18 @@
+{
+    "name": "Triathlon or Sprint?",
+    "compose": true,
+    "description": "...",
+    "author": "simple_tuck",
+    "category": "web",
+    "flag": "csawctf{h0p1n6_17_w45_4_5pr1n7...}",
+    "box": "web.chal.csaw.io",
+    "internal_port": 8000,
+    "points": 500,
+    "urls": [
+        "http://web.chal.csaw.io:8000/"
+    ],
+    "reference": "https://github.com/osirislab/CSAW-CTF-2023-Finals/tree/main/web/triathlon_or_sprint",
+    "files": [
+	    "ftp-conn"
+    ]
+}

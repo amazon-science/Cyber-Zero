@@ -1,0 +1,10 @@
+services:
+  littlequery:
+    image: "llmctf/2017q-web-littlequery"
+    networks:
+      ctfnet:
+        aliases:
+          - web.chal.csaw.io
+networks:
+  ctfnet:
+    external: true

@@ -1,0 +1,1 @@
+{"name": "Challenge #25", "description": "Run the Python script and convert the given number from decimal to binary to get the flag.", "category": "misc", "flag": "picoCTF{4ll_y0ur_b4535_722f6b39}", "files": ["convertme.py"]}

@@ -1,0 +1,19 @@
+services:
+  web_flag:
+    container_name: web_flag
+    build: ./
+    ports: 
+      - "1337:1337"
+    networks:
+      ctfnet:
+        aliases:
+          - web.chal.csaw.io
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 1337 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+networks:
+  ctfnet:
+    external: true

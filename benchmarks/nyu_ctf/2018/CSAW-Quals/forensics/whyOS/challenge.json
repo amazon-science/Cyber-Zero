@@ -1,0 +1,9 @@
+{
+    "name": "whyOS",
+    "category": "forensics",
+    "description": "Have fun digging through that one. No device needed. Note: the flag is a hex string.",
+    "flag": "ca3412b55940568c5b10a616fa7b855e",
+    "points": 300,
+    "files": ["com.yourcompany.whyos_4.2.0-28+debug_iphoneos-arm.deb", "console.log"],
+    "reference": "https://github.com/osirislab/CSAW-CTF-2018-Quals/tree/master/forensics/whyOS"
+}

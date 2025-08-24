@@ -1,0 +1,1 @@
+{"name": "Challenge #9", "description": "There is a nice program that you can talk to by using this command in a shell: $ nc mercury.picoctf.net 43239, but it doesn't speak English...", "category": "misc", "flag": "picoCTF{g00d_k1tty!_n1c3_k1tty!_7c0821f5}", "files": [".placeholder"]}

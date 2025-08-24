@@ -1,0 +1,19 @@
+services:
+  delulu:
+    container_name: delulu
+    build: .
+    ports:
+      - "1337:1337"
+    networks:
+      ctfnet:
+        aliases:
+          - pwn.chal.csaw.io
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 1337 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+networks:
+  ctfnet:
+    external: true

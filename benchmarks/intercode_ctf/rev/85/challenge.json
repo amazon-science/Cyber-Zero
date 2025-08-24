@@ -1,0 +1,1 @@
+{"name": "Challenge #85", "description": "It's not a bad idea to learn to read Powershell. We give you the output, but do you think you can find the input? rev_PS.ps1 output.txt", "category": "rev", "flag": "picoCTF{2018highw@y_2_pow3r$hel!}", "files": ["rev_PS.ps1", "output.txt"]}
